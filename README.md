@@ -24,7 +24,7 @@ To run the server application, execute the `Main` class.
 
 ## Communication Protocol
 
-The client and server communicate using a simple text-based protocol. The client sends commands to the server, and the server responds with status codes and optional data.
+The client and server communicate using a simple text-based protocol based on HTTP. The client sends commands to the server, and the server responds with status codes and optional data.
 
 - Command format: `<command> <file_name>`
 - Status codes:
